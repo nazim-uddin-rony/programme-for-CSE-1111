@@ -1,6 +1,6 @@
 
 #include<stdio.h>
-#include<math.h>
+
 int main(){
     /* 'r' is the Radius of a circle
        'A' is the Area of a circle
@@ -11,9 +11,9 @@ int main(){
 
 
     /* The Formula of Area of a Circle */
-    A = M_PI * r * r;
+    A = 3.1416 * r * r;
 
-    printf("\n\nThe Area of the Circle with Radius %.2f is : %.2f \n\n", r, A );
+    printf("\n\nThe Area of the Circle with Radius %.2f cm is : %.2f cm square\n\n", r, A );
     return 0;
 
 }
